@@ -24,7 +24,7 @@ You will learn how to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/surbhigoel77/DecisionTrees_SummerSchool25.git
+git clone https://github.com/Cambridge-ICCS/DecisionTrees_SummerSchool25
 cd DecisionTrees_SummerSchool25
 ```
 
