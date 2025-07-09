@@ -52,7 +52,7 @@ jupyter notebook
 ## Running the notebooks using Codespace
 Use the below commands in your codespace terminal
 
-### 1. Install notebook package using,
+<!-- ### 1. Install notebook package using,
  ```bash
 pip install notebook
 ```
@@ -68,8 +68,18 @@ python -m ipykernel install --user --name=codespace-env --display-name "ICCS Cod
 ### 3. Install all packages using,
 ```bash
 pip install -r requirements.txt
+``` -->
+
+### 1. Install packages
+```bash 
+pip install -r requirements.txt
 ```
 
-### 4. Launch notebooks (in your browser) using,
+### 2. Add the ipykernel to your environment
+```bash 
+python -m ipykernel install --user --name=codespace-env --display-name "ICCS Codespace"
+```
+
+### 3. Launch notebooks (in your browser)
 ```bash 
 jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' 
