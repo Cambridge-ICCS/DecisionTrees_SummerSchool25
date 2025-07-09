@@ -1,13 +1,12 @@
-# Decision Trees and Random Forests – Regression & Classification
+# Decision Trees and Random Forests
 
 This repository contains Jupyter notebooks for teaching and exploring **Decision Tree** and **Random Forest** models using standard datasets.
 
 You will learn how to:
-- Use Decision Trees for **regression** 
-- Use Decision Trees for **classification** 
+- Use Random Forest for **regression** 
+- Use Random Forest for **classification** 
 - Visualise trained trees and feature importances
 - Evaluate models using standard metrics
-- Extend to **Random Forests** for improved performance and robustness
 
 ---
 
