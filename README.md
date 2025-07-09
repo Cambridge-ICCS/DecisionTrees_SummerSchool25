@@ -19,6 +19,7 @@ You will learn how to:
 ---
 
 ## Running the notebooks using vscode or any other IDE
+Use the below commands in your terminal
 
 ### 1. Clone the Repository
 
@@ -64,6 +65,11 @@ pip install ipykernel
 python -m ipykernel install --user --name=codespace-env --display-name "ICCS Codespace"
 ```
 
-### 3. Launch notebooks (in your browser) using,
+### 3. Install all packages using,
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch notebooks (in your browser) using,
 ```bash 
 jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' 
