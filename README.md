@@ -23,8 +23,8 @@ You will learn how to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/surbhigoel77/DecisionTrees_SummerSchool25.git
-cd DecisionTrees_SummerSchool25
+git clone https://github.com/Cambridge-ICCS/RandomForests_SummerSchool25.git
+cd RandomForests_SummerSchool25
 ```
 
 ### 2. Create a Virtual Environment (Optional)
