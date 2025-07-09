@@ -19,7 +19,7 @@ You will learn how to:
 
 ---
 
-## Installation
+## Running the notebooks using vscode or any other IDE
 
 ### 1. Clone the Repository
 
@@ -40,9 +40,31 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+Note: If running requirements.txt gives error, try upgrading pip using command `pip install --upgrade pip`
 
-### 3. Launch Jupyter Notebook
+### 4. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
+
+
+## Running the notebooks using Codespace
+Use the below commands in your codespace terminal
+
+### 1. Install notebook package using,
+ ```bash
+pip install notebook
+```
+
+### 2. Install ipykernel package and add it to your environamnt using,
+ ```bash
+pip install ipykernel
+```
+ ```bash
+python -m ipykernel install --user --name=codespace-env --display-name "ICCS Codespace"
+```
+
+### 3. Launch notebooks (in your browser) using,
+```bash 
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' 
